@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <nav>
+        <ul>
+           
+            <li class="brand"><img src ="./images/logo1.png" alt="Spotify">Spotify</li>
+            <div class="right">
+           <li><a href="index.html">Home</a></li>
+            <li><a href ="about.html">About</a></li>
+            </div>
+            
+        </ul>
+    </nav>
+
+    <div class="container">
+       
+        <div class="SongList">
+            <h1>Best of NCS - No Copyright Sounds</h1> 
+            <div class="songItemContainer">
+                <div class="songItem">
+                   <img src="./images/ehsaas.jpg" alt="1">
+                    <span class="songName">Ehsaas - Faheen,Duha</span>
+                    <span class="songlistplay"><span class="timestamp">03:53 <i id="0" class="fa-solid songItemplay fa-circle-play"></i></span> </span>
+
+                </div>
+                 <div class="songItem">
+                   <img src="./images/kashish.webp" alt="1">
+                    <span class="songName">Kashish - Ashish,Omkar</span>
+                    <span class="songlistplay"><span class="timestamp">03:13 <i id="1" class="fa-solid songItemplay fa-circle-play"></i></span> </span>
+
+                </div>
+                 <div class="songItem">
+                   <img src="./images/barbaad.webp" alt="1">
+                    <span class="songName">Barbaad - Rish,Jubin</span>
+                    <span class="songlistplay"><span class="timestamp">05:57 <i id="2" class="fa-solid songItemplay fa-circle-play"></i></span> </span>
+
+                </div>
+                 <div class="songItem">
+                   <img src="./images/kantara.jpg" alt="1">
+                    <span class="songName">Kantara Theme Song</span>
+                    <span class="songlistplay"><span class="timestamp">02:56 <i id="3" class="fa-solid songItemplay fa-circle-play"></i></span> </span>
+
+                </div>
+                 <div class="songItem">
+                   <img src="./images/khoobsurat.jpg" alt="1">
+                    <span class="songName">Khoobsurat - Jubin</span>
+                    <span class="songlistplay"><span class="timestamp">04:17 <i id="4" class="fa-solid songItemplay fa-circle-play"></i></span> </span>
+
+                </div>
+                 <div class="songItem">
+                   <img src="./images/raatkshikari.jpg" alt="1">
+                    <span class="songName">Raat Ke Shikari</span>
+                    <span class="songlistplay"><span class="timestamp">02:28 <i id="5" class="fa-solid songItemplay fa-circle-play"></i></span> </span>
+
+                </div>
+                 <div class="songItem">
+                   <img src="./images/saiyaara.jpg" alt="1">
+                    <span class="songName">Saiyaara - Tanishk</span>
+                    <span class="songlistplay"><span class="timestamp">06:10 <i id="6" class="fa-solid songItemplay fa-circle-play"></i></span> </span>
+
+                </div>
+                 <div class="songItem">
+                   <img src="./images/pallolatke.jpg" alt="1">
+                    <span class="songName">Pallo Latke Again</span>
+                    <span class="songlistplay"><span class="timestamp">02:53 <i id="7" class="fa-solid songItemplay fa-circle-play"></i></span> </span>
+
+                </div>
+            </div>
+        </div>
+        <div class="SongBanner"></div>
+        
+    </div>
+
+    <div class="Bottom">
+        <input type="range" name="range" id = "myProgressBar" min="0" value="0" max="100">
+         <span id="currentTime">00:00 / 00:00</span> <!-- ⏱ time display -->
+       
+         <div class="icons">
+        <!--fontawesomeicons-->
+        <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+       <i   class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+        <i  class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+        
+        <div class="songInfo">
+       <img src="./images/MusicSoundEqualizer.gif" width="40px" alt="" id="gif"><span id="masterSongName">Ehsaas - Faheen,Duha</span>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/d8709956cb.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
